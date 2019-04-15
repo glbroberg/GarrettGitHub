@@ -212,6 +212,10 @@
     <Compile Include="Migrations\201904150118093_OverrideConventionsForGigsAndGenres.Designer.cs">
       <DependentUpon>201904150118093_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201904150137151_AddSeedData.cs" />
+    <Compile Include="Migrations\201904150137151_AddSeedData.Designer.cs">
+      <DependentUpon>201904150137151_AddSeedData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -307,6 +311,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201904150118093_OverrideConventionsForGigsAndGenres.resx">
       <DependentUpon>201904150118093_OverrideConventionsForGigsAndGenres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201904150137151_AddSeedData.resx">
+      <DependentUpon>201904150137151_AddSeedData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
